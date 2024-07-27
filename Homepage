@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homepage.css">
+    <title>FOWOBS</title>
+</head>
+<body>
+        <div class="wrapper">
+          <form >
+            <h1><bold>Login</bold></h1>
+            <div class="input-box">
+              <input type="text"name="username-email"id="username"placeholder="username" required>
+            </div>
+            <div class="input-box">
+              <input type="password"name="password"id="password"placeholder="password" maxlength="8" required/>
+            </div>
+            <button type="submit" class="button">sign in</button>
+          <div  class="new-account">
+            <p class="">New user ?<a href="create_new_account.html" class="" name="Create Account">
+              Create Account
+            </a></p>
+        </div>
+          </form>
+        </div>  
+</body>
+</html>
