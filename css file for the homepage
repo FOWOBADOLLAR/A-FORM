@@ -9,7 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(lovely\ jersey.jpg) no-repeat;
+    background: url(IMG_20240725_233015_739.jpg) no-repeat;
     background-size: cover;
     background-position:center;
 }
