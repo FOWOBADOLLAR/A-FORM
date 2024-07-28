@@ -1,95 +1,77 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "poppins" , sans-serif;
-}
 body{
-    display: flex;
+    background-color: purple;
+    color: black;
     justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: url(img.jpg) no-repeat;
-    background-size: cover;
-    background-position:center;
+    align-content: center;
+    }
+h1{
+    color:black;
+    text-align:center;
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ .container {
+  display:flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  justify-content: center;
+  align-content: center;
+  text-align:center;
+ }
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 20px 0;
+  align-content: center;
+  justify-content: center;
 }
-.wrapper{
-    width: 420px;
-    background: transparent;
-    color: white;
-    border: 2px solid rgba(255, 255, 255, .2);
-    border-radius: 10px;
-    padding: 30px 40px;
-    backdrop-filter: blur(20px);
 
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  margin-bottom: 15px;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
 }
-.wrapper h1{
-    font-size: 36px;
-    text-align: center;
-}
-.wrapper .input-box{
-    position: relative;
-    width: 100%;
-    height: 50px;
-    margin: 30px 0;
-}
-.input-box input{
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    border: none;
-    outline: none;
-    border: 2px solid rgba(255, 255, 255, .2);
-    border-radius: 40px;
-    font-size: 16px;
-    color: #fff;
-    padding:  20px 45px 20px 20px;
-}
-.input-box input::placeholder {
-    color: #fff;
-}
-.wrapper .new-account{
-    display: flex;
-    justify-content: space-between;
-    font-size: 14.5px;
-    margin: -15px 0 15px;
-}
-.new-account label input {
-    accent-color: #ffff;
-    margin-right: 3px;
-}
-.new-account a {
-    color: #fff;
-    text-decoration: none;
-}
-.new-account a:hover {
-    text-decoration: underline;
-}
-.wrapper .button{
-    width: 100%;
-    height: 45px;
-    background: #fff;
-    border: none;
-    outline: none;
-    border-radius: 40px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-    cursor:pointer;
-    font-size: 16px;
-    color: #333;
-    font-weight: 600;
-}
-.wrapper .new-account{
-    font-size: 14.5px;
-    text-align: center;
-    margin-top: 20px;
-    padding: 10px;
-}
-.new-account p a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-}
-.new-account p a:hover{
-    text-decoration: underline;
 
+input[type="submit"],
+input[type="reset"] {
+  background-color: white;
+  color: black;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color:darkgreen; 
+}
+.fieldset {
+  display: flexbox;
+  margin-inline-start: 2px;
+  margin-inline-end: 2px;
+  padding-block-start: 0.35em;
+  padding-inline-start: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+  min-inline-size: min-content;
+  border-width: 2px;
+  border-style: groove;
+  border-color: black;
+  border-image: initial;
+}
+.dove{
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  justify-content: center;
+  align-items: left;
+  min-height: 100;
+  margin: 20px;
 }
